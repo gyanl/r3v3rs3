@@ -7,6 +7,15 @@ button:focus {
 a {
   text-decoration: none; }
 
+.redblack {
+  background: #ff4343;
+  background: -moz-linear-gradient(left, #ff4343 0%, black 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #ff4343), color-stop(100%, black));
+  background: -webkit-linear-gradient(left, #ff4343 0%, black 100%);
+  background: -o-linear-gradient(left, #ff4343 0%, black 100%);
+  background: -ms-linear-gradient(left, #ff4343 0%, black 100%);
+  background: linear-gradient(to right, #ff4343 0%, black 100%); }
+
 .butt {
   color: #fff;
   font-family: "Avenir Next", Nunito, "Roboto", "Helvetica Neue", sans-serif;
