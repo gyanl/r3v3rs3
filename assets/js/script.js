@@ -12,7 +12,7 @@ var win = window,
 
 win.onscroll = function(){
    var sTop = (this.pageYOffset || docEl.scrollTop)  - (docEl.clientTop || 0);
-   $logo.style.fontSize =  sTop > 10 ? "0":"32px" ;
+   $logo.style.fontSize =  sTop > 10 ? "0":"28px" ;
 };
 
 window.onload = init();
